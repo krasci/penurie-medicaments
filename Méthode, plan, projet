@@ -5,3 +5,8 @@ Afficher les médicaments recommandés par l'OMS et qui sont en pénurie (au moi
 
 ## Format
 Une infographie.
+
+## Historique
+* Première étape est de télécharger le .PDF de la liste des médicaments essentiels publiée par l'OMS (https://www.who.int/medicines/publications/essentialmedicines/fr/).
+* Ensuite je fais passer le fichier .PDF par le programme Tabula (https://tabula.technology/) pour transformer facilement le fichier .PDF en format éditable (.CSV).
+* Une fois que c'est fait, je passe le fichier par un programme de nettoyage (comme Trifacta Wrangler) pour améliorer la qualité du fichier. 
